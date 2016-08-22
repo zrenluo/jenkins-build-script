@@ -8,7 +8,8 @@ CHANNEL=$2
 PROJECT=$3
 
 if [ -z $CHANNEL ] ; then
-	CHANNEL=stable
+#	CHANNEL=stable
+	CHANNEL=edge
 fi
 
 if [ -z $PROJECT ] ; then
